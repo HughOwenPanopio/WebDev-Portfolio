@@ -1,0 +1,25 @@
+
+.container {
+    position: fixed !important;
+    z-index: 1;
+    max-width: 100%;
+    top: 0;
+    background: white;
+}
+.logo-container img {
+    width: 30%;
+    object-fit: cover;
+    max-height: 10vh;
+    position: relative;
+    right: 4rem;
+}
+.page-container ul {
+    list-style: none;
+    display: flex !important;
+    gap: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    top: 2rem;
+    left: 9rem;
+}
