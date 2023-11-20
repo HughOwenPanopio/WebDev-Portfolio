@@ -1,20 +1,23 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
 .container {
     position: fixed !important;
-    z-index: 1;
+    z-index: 1000;
     max-width: 100%;
     top: 0;
     background: white;
+    /* border-bottom: 1px solid; */
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
 }
 .logo-container img {
     width: 30%;
     object-fit: cover;
     max-height: 10vh;
     position: relative;
-    right: 4rem;
+    right: 6rem;
 }
 .page-container ul {
     list-style: none;
+    font-family: 'Montserrat', sans-serif;
     display: flex !important;
     gap: 30px;
     font-size: 25px;
