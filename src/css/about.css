@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+
+.about-container {
+    align-items: center;
+}
+.about-details {
+    display: flex;
+    flex-direction: column !important;
+    gap: 10px;
+    align-items: center !important;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem auto;
+}
+#certificate {
+    width: 100%;
+}

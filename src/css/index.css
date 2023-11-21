@@ -7,19 +7,21 @@ main {
 }
 .img-detailsContainer {
     align-items: center !important;
+    text-align: center !important;
     font-family: 'Montserrat', sans-serif;
 }
 .image-container img {
-    width: 60%;
+    width: 70%;
     object-fit: cover !important;
     max-height: 60vh;
     border-radius: 10%;
     margin: 7rem;
     position: relative !important;
-    left: 2rem;
+    right: 1rem;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
 }
 .details-container {
+    margin-left: 4rem;
     display: flex;
     flex-direction: column !important;
     gap: 10px;
@@ -46,4 +48,44 @@ main {
 .icon-container {
     display: flex;
     gap: 15px;
+}
+.tech-strack-container {
+    display: flex;
+    align-items: center !important;
+    gap: 20px;
+    margin-top: 3rem;
+}
+#html-logo {
+    width: 10%;
+    height: 10%;
+}
+#css-logo {
+    width: 11%;
+    height: 11%;
+}
+#js-logo {
+    width: 11%;
+    height: 11%;
+}
+#bootstrap-logo {
+    width: 14%;
+    height: 14%;
+}
+#viteReact-logo {
+    width: 15%;
+    height: 15%;
+}
+.tech-strack-container2 {
+    display: flex;
+    align-items: center !important;
+    gap: 20px;
+    margin-left: 10rem;
+}
+#php-logo {
+    width: 15%;
+    height: 15%;
+}
+#postgresql-logo {
+    width: 12%;
+    height: 12%;
 }

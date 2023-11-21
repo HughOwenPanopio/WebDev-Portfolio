@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Index from './components/Index'
+import About from './components/About'
 import './App.css'
 
 function App() {
@@ -8,6 +9,10 @@ function App() {
       path: '/',
       element: <Index/>
     },
+    {
+      path: '/about',
+      element: <About/>
+    }
   ])
   return (
     <>

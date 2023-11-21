@@ -26,3 +26,7 @@
     top: 2rem;
     left: 9rem;
 }
+#aboutLink {
+    text-decoration: none !important;
+    color: black;
+}

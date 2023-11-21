@@ -18,10 +18,12 @@ const Header = () => {
               </div>
               <div className="col page-container">
                 <ul>
+                  <Link to='/about' id="aboutLink">
                   <li>About</li>
+                  </Link>
                   <li>Experience</li>
                   <li>Project</li>
-                  <li>contact</li>
+                  <li>Contact</li>
                 </ul>
               </div>
             </div>
